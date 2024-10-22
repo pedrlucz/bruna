@@ -1,0 +1,33 @@
+import time as t
+import time as t
+import pyautogui as pa
+
+t.sleep(7)
+for i in range(30):
+    
+    
+    pa.hotkey("ctrl","c")
+    t.sleep(1)
+    pa.hotkey("alt","tab")
+    t.sleep(1)
+    pa.click(x=101, y=187)
+    t.sleep(2)
+    pa.hotkey("ctrl","v")
+    t.sleep(5)
+    pa.press("enter")
+    t.sleep(4)
+
+    pa.typewrite("Ola! Tudo bem? Sou Pedro, correspondente bancario do Grupo Meirelles.  Apresentamos o nosso produto: COMPRA DE DIVIDAS!! Eliminamos seu nome negativado e regularizamos atrasos ✅. Reduzimos as taxas de juros 📉. Unificamos suas parcelas sem acrescimos. Libere um troco extra 💵.  Faca uma simulacao e descubra como liberar dinheiro este mes! Entre em contato em https://w.app/grupomeirelles para mais informacoes!")
+    t.sleep(4)
+    pa.press("enter")
+    t.sleep(2)
+    pa.hotkey("alt","tab")
+    t.sleep(.6)
+    pa.hotkey("ctrl","right")
+    t.sleep(1)
+    pa.press("a")
+    t.sleep(1)
+    pa.press("enter")
+    t.sleep(1)
+    pa.hotkey("ctrl","left")
+    t.sleep(1)
